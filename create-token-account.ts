@@ -17,7 +17,7 @@ const tokenMintAccount = new PublicKey(
   "3SYu9RpKyuo4tQxpejkPR1ZSk1uyKN7fyHLxBLJJHUPt"
 );
 
-// Here we are making an associated token account for our own address, but we can 
+// making an associated token account for address, 
 // make an ATA on any other wallet in devnet!
 // const recipient = new PublicKey("SOMEONE_ELSES_DEVNET_ADDRESS");
 const recipient = user.publicKey;
